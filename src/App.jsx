@@ -1,8 +1,16 @@
+import { Camera } from "lucide-react";
+import Header from "./layout/Header";
+import PageContent from "./layout/PageContent";
+
 function App() {
   return (
     <>
-      <div className="text-orange-400 text-2xl font-bold text-center">
-        Organic Food <span className="text-black">App</span>
+      <div id="app">
+        {/** Header */}
+        <Header />
+        {/**PageContent */}
+        <PageContent />
+        {/**Footer */}
       </div>
     </>
   );
