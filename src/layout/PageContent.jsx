@@ -2,6 +2,10 @@ import React from 'react'
 import Hero from '../components/Hero'
 import LatestOffer from '../components/LatestOffer'
 import PremiumBakery from '../components/PremiumBakery'
+import DiscoverProducts from '../components/DiscoverProducts'
+import CharityBanner from '../components/CharityBanner'
+import GiftSection from '../components/GiftSection'
+import InstagramCarousel from '../components/InstagramCarousel'
 
 const PageContent = () => {
   return (
@@ -12,6 +16,10 @@ const PageContent = () => {
       <LatestOffer />
       {/** Bakery */}
       <PremiumBakery />
+      <DiscoverProducts />
+      <CharityBanner />
+      <GiftSection />
+      <InstagramCarousel />
     </main>
   )
 }

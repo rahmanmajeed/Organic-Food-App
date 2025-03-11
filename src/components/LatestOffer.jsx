@@ -38,7 +38,7 @@ const LatestOffer = () => {
           ].map((offer, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg overflow-hidden w-64 flex-shrink-0 snap-center"
+              className="bg-white shadow-md rounded-lg overflow-hidden max-w-64 flex-shrink-0 snap-center"
             >
               <img
                 src={offer.img}

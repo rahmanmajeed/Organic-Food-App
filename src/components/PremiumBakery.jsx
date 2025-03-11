@@ -24,19 +24,22 @@ const PremiumBakery = () => {
             {
               title: "Buy Wholesale",
               text: "We offer bulk formats, variety cases, and discovery boxes so you can save money on delicious foods by buying at wholesale prices.",
+              icon: "/icon-sale.svg",
             },
             {
               title: "Support Your Community",
               text: "By buying in bulk from local and Canadian producers, you are helping grow our local food ecosystem, creating jobs, and supporting families and entrepreneurs in your community.",
+              icon: "/icon-support.svg",
             },
             {
               title: "Enjoy the Best Quality",
               text: "We only offer great-tasting, all-natural foods that are better for you, and organic if possible.",
-              icon: "/icons/quality-seal.svg",
+              icon: "/icon-winner.svg",
             },
             {
               title: "Enjoy Club Level Service",
               text: "As a member of our club, we will make sure you are delighted with our service or we will make it right!",
+              icon: "/icon-heart.svg",
             },
           ].map((item, index) => (
             <div
@@ -47,7 +50,7 @@ const PremiumBakery = () => {
                 <img
                   src={item.icon}
                   alt={item.title}
-                  className="h-12 w-12 mb-4"
+                  className="h-10 w-10 mb-4"
                 />
               )}
               <h2 className="text-xl md:text-2xl font-semibold text-gray-800 mb-2">

@@ -1,5 +1,6 @@
 import { ChevronDown, Search, ShoppingCart, User, X } from "lucide-react";
 import React from "react";
+import Navbar from "../components/Navbar";
 
 const Header = () => {
   return (
@@ -16,26 +17,10 @@ const Header = () => {
       <div className="flex items-center justify-between px-6 py-4">
         {/** Logo */}
         <div className="text-xl font-bold flex items-center">
-          <img src="./brand.png" alt="h-10" />
+          <img src="./brand.png" alt="h-10" className="h-10"/>
         </div>
         {/** Navigation Items */}
-        <nav className="hidden md:flex space-x-6 text-[#1F1F1F]">
-          <a href="#" className="hover:text-orange-600 flex items-center">
-            Occasions <ChevronDown className="w-4 h-4 ml-1" />
-          </a>
-          <a href="#" className="hover:text-orange-600 flex items-center">
-            All Categories <ChevronDown className="w-4 h-4 ml-1" />
-          </a>
-          <a href="#" className="hover:text-orange-600 flex items-center">
-            Gifts & Bundles <ChevronDown className="w-4 h-4 ml-1" />
-          </a>
-          <a href="#" className="hover:text-orange-600">
-            Our Brands
-          </a>
-          <a href="#" className="hover:text-orange-600">
-            About Us
-          </a>
-        </nav>
+        <Navbar />
 
         {/** right action icons */}
         <div className="flex items-center space-x-4">
